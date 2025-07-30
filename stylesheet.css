@@ -1,0 +1,310 @@
+/*Main Body - Settings*/
+      body {
+        background-color: #161618;
+        border: 0.667px solid white;
+        /*
+        background-image: url(./assets/images/image2.jpg);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        min-height: 100vh;
+       */
+        
+      }
+
+/*Top Container - Settings*/
+      .t-container {
+        display: flex;
+        margin-top: 80px;
+        height: 27vh;
+        justify-content: center;
+        color: white;
+      }
+      /*Top Child - Settings*/
+      .t-item {
+        flex: 1;
+        max-width: 300px;
+        padding: 0px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+      }
+  /*Top Container - Child*/
+
+      /*Title*/
+      .title {
+        font-size: 54px;
+        margin: 0 0 10px 0;
+      }
+      /*2nd Line*/
+      .introduction {
+        margin: 0 0 3px 0;
+        color: #b5b5b5;  
+        font-size: large;  
+        font-weight: bold;        
+      }
+      /*3rd Line*/
+      .description {
+        margin: 0 0 0 0;
+        color: #b5b5b5;
+        font-size: large;
+        font-weight: bold;  
+        margin-bottom: 40px;      
+      }
+      /*Button*/
+      .saver {
+        padding: 10px 0px 10px 0px;
+        border-radius: 30px;
+        border: 0.667px solid white;
+        background-color: #1f1f21;
+        color: #b5b5b5;
+        font-weight: bold;
+        width: 84%;
+        cursor: pointer; /* Ensures button has a clickable cursor */
+      }
+      /*Button - Inner - Detailing*/
+      #clbrdr {
+        border-right: 1px solid white;
+        border-radius: 30px;
+        padding: 11px 0px 10px 0px;
+        margin-right: 10px;
+      }
+      /*Orange Text*/
+      .t-item > button > span > #s1 {
+        color: orange;
+        font-size: 0.8em;
+        padding: 0 13px 0 0;
+        
+      }
+      /*Pay Yearly*/
+      .t-item > button > span > #s3 {
+        color: white;  
+      }
+
+/*Bottom Container - Settings*/      
+      .b-container {
+        display: flex;
+        color: white;
+        justify-content: center;
+        height: 54.7vh;
+        gap: 15px;
+      }
+      /*Bottom Children - Settings*/
+      .b-item {
+        flex: 1;
+        max-width: 280px;
+        max-height: 328px;
+        padding: 16px 25px 15px 25px;
+        border-radius: 7%;
+        background-color: #1a1b1e;
+      }
+
+  /*All 3 children */
+
+    /*Bottom - Child 1*/
+      .basic1 {
+        border: 0.667px solid #2b2d32;
+      }
+      /*Version Title*/
+      .version1 {
+        font-weight: bold;
+        margin: 10px 0px 0px 0px;
+      }
+      /*Price Line*/
+      .price1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 7px 0px 25px 0px;
+      }
+      /*Upgrade Button*/
+      .plan1 {
+        flex: 1;
+        padding: 12px 0px;
+        margin: 0px 0px 10px 0px;
+        border-radius: 30px;
+        background-color: #1a1b1e;
+        border: 0.1px solid #2b2d32;
+        font-size: 13px;
+        font-weight: 600;
+        color: #b5b5b5;
+        width: 100%;
+        display: inline-block;
+        appearance: none;
+        cursor: pointer; /* Ensures button has a clickable cursor */
+      }
+      /*Button - Style 1*/
+      .plan1:focus {
+        outline: none;
+      }
+      /*Button - Style 2*/
+      .plan1:hover {
+      background-color: #2b2d32;
+      }
+      /*Featues - List*/
+      .features1 {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        list-style:lower-greek;
+        padding-left: 19px;
+      }
+      /*Features - List - List Style*/
+      .features1 ::marker {
+        color: #b5b5b5;
+      }
+      /*Features - List - Line*/
+      .features1 > li {
+        margin-bottom: 12px;
+      }
+
+    /*Bottom - Child 2*/
+
+      /*Child 2*/
+      .super2 {
+        border: 2px solid white;
+      }
+      /*Version Title*/
+      .version2 {
+      font-weight: bold;
+      margin: 10px 0px 0px 0px;
+      }
+      /*Popular Bubble*/
+      #pop2 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #b5b5b5;
+        float:right;
+        border: 0.667px solid #2b2d32;
+        background-color: #26272b;
+        padding: 3px 6px;
+        border-radius: 7px;
+        fill-opacity: 100%;
+      }
+      /*Price Line*/
+      .price2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 7px 0px 25px 0px;
+      }
+      /*Price Line - Year*/
+      #year2 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #b5b5b5;  
+      }
+      /*Upgrade Button*/
+      .plan2 {
+        flex: 1;
+        padding: 12px 0px 12px 0px;
+        margin: 0px 0px 10px 0px;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 600;
+        display: inline-block;
+        width: 100%;
+        appearance: none;
+        cursor: pointer; /* Ensures button has a clickable cursor */
+      }
+      /*Featues - List*/
+      .features2 {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        list-style:lower-greek;
+        padding-left: 19px;
+      }
+      /*Features - List - List Style*/
+      .features2 ::marker {
+        color: #b5b5b5;
+      }
+      /*Features - List - Line*/
+      .features2 > li {
+        margin-bottom: 12px;
+      }
+      /*Replace - Grey line*/
+      #replace2 {
+        color: #b5b5b5;
+        font-size: 13px; 
+        font-weight: 400;
+        margin: 0px;
+        margin-top: 3px;;
+        margin-bottom: 10px;
+      }
+      /*Token Text*/
+      #token2 {
+        color: #b5b5b5;
+        font-size: 13.5px;     
+        font-weight: 400;   
+      }
+
+    /*Bottom - Child 3*/
+
+      /*Child 3*/
+      .heavy3 {
+        border: 0.667px solid #2b2d32;
+      }
+      /*Version Title*/
+      .version3 {
+      font-weight: bold;
+      margin: 10px 0px 0px 0px;
+      }
+      /*Price Line*/
+      .price3 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 7px 0px 25px 0px;
+      }
+      /*Price Line - Year*/
+      #year3 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #b5b5b5;  
+      }
+      /*Upgrade Button*/      
+      .plan3 {
+        flex: 1;
+        padding: 12px 0px 12px 0px;
+        margin: 0px 0px 10px 0px;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 600;
+        display: inline-block;
+        width: 100%;
+        appearance: none;
+        cursor: pointer; /* Ensures button has a clickable cursor */
+      }
+      /*Featues - List*/
+      .features3 {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        list-style:lower-greek;
+        padding-left: 19px;
+      }
+      /*Features - List - List Style*/
+      .features3 ::marker {
+        color: #b5b5b5;
+      }
+      /*Features - List - Line*/
+      .features3 > li {
+        margin-bottom: 12px;
+      }
+      /*Token Text*/
+      #token3 {
+        color: #b5b5b5;
+        font-size: 13.5px;     
+        font-weight: 400;   
+      }
+
+/*Footer Section*/
+
+      /*Footer*/
+      footer {
+        color: white;
+        margin-left: 20px;
+        font-size: 20px;
+      }
+
+      #cw1 {
+        color: white;
+        font-size: 28px;
+      }
